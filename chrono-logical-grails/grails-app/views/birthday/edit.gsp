@@ -28,16 +28,16 @@
                 <div class="dialog">
                     <table>
                         <tbody>
-                        
+
                             <tr class="prop">
                                 <td valign="top" class="name">
                                     <label for="birthDate">Birth Date:</label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean:birthdayInstance,field:'birthDate','errors')}">
-                                    <g:datePicker name="birthDate" value="${birthdayInstance?.birthDate}" precision="minute" ></g:datePicker>
+                                    <g:datePicker name="birthDate" value="${birthdayInstance?.birthDate}" precision="day" ></g:datePicker>
                                 </td>
-                            </tr> 
-                        
+                            </tr>
+
                             <tr class="prop">
                                 <td valign="top" class="name">
                                     <label for="name">Name:</label>
@@ -45,8 +45,8 @@
                                 <td valign="top" class="value ${hasErrors(bean:birthdayInstance,field:'name','errors')}">
                                     <input type="text" id="name" name="name" value="${fieldValue(bean:birthdayInstance,field:'name')}"/>
                                 </td>
-                            </tr> 
-                        
+                            </tr>
+
                         </tbody>
                     </table>
                 </div>
