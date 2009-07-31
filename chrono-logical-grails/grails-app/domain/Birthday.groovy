@@ -11,7 +11,7 @@ class Birthday {
     }
 
     static mapping = {
-        birthdate type: PersistentLocalDate
+        birthDate type: PersistentLocalDate
     }
 
 }
