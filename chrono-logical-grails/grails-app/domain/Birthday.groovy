@@ -7,12 +7,8 @@ class Birthday {
     String name
     LocalDate birthDate
 
-    static constraints = {
-    }
-
     static mapping = {
         birthDate type: PersistentLocalDate
     }
-
 }
 
