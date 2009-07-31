@@ -1,0 +1,5 @@
+class Birthday {
+
+    static constraints = {
+    }
+}
