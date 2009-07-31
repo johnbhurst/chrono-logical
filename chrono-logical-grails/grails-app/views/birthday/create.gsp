@@ -31,7 +31,7 @@
                                     <label for="birthDate">Birth Date:</label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean:birthdayInstance,field:'birthDate','errors')}">
-                                    <g:datePicker name="birthDate" value="${birthdayInstance?.birthDate}" precision="day" ></g:datePicker>
+                                    <joda:datePicker name="birthDate" value="${birthdayInstance?.birthDate}"/>
                                 </td>
                             </tr>
 

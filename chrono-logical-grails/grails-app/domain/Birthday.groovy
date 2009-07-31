@@ -1,8 +1,18 @@
+
+import org.joda.time.LocalDate
+import org.joda.time.contrib.hibernate.PersistentLocalDate
+
 class Birthday {
 
     String name
-    Date birthDate
+    LocalDate birthDate
 
     static constraints = {
     }
+
+    static mapping = {
+        birthdate type: PersistentLocalDate
+    }
+
 }
+
