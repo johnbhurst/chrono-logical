@@ -34,7 +34,7 @@
                                     <label for="birthDate">Birth Date:</label>
                                 </td>
                                 <td valign="top" class="value ${hasErrors(bean:birthdayInstance,field:'birthDate','errors')}">
-                                    <g:datePicker name="birthDate" value="${birthdayInstance?.birthDate}" precision="day" />
+                                    <calendar:datePicker name="birthDate" value="${birthdayInstance?.birthDate}" dateFormat="%Y-%m-%d" />
                                 </td>
                             </tr>
 
