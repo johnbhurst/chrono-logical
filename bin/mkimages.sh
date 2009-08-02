@@ -11,6 +11,7 @@ function bigcrop() {
 stdcrop chrono-logical-grails-default-list
 stdcrop chrono-logical-grails-default-create
 stdcrop chrono-logical-grails-default-create-precision-day
+stdcrop chrono-logical-grails-joda-time-list
 bigcrop chrono-logical-grails-calendar-create
 
 
